@@ -1,0 +1,124 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  font-weight: bold;
+}
+/*header css properties*/
+header {
+  position: fixed;
+  align-items: : center;
+  width: 100%;
+  z-index: 1;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.logo {
+  display: flex;
+}
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+nav {
+text-align: right;
+flex-grow: 1;
+display: block;
+}
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  text-decoration: underline;
+}
+a {
+  color: seashell;
+}
+/*Our Mission css properties*/
+.main {
+  opacity: 0.9;
+  margin: auto;
+  padding-top: 69px;
+  width: 1200px;
+}
+#mission {
+  background-image: url("../resources/images/mission-background.jpg");
+  background-repeat: no-repeat;
+  height: 700px;
+  padding-top: 70px;
+}
+#mission .narrative {
+  background-color: black;
+  position: absolute;
+  top: 57%;
+  width: 1200px;
+}
+h2,
+  h3,
+    h4 {
+  padding: 10px;
+  margin: 0;
+}
+/*Featured tea css properties*/
+#featuredtea {
+  display: block;
+  padding-top: 70px;
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+}
+.tea {
+  padding: 5px;
+}
+.tea img {
+  display: inline-block;
+  align-content: space-between;
+  flex-direction: row;
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+.tea span {
+  display: block;
+  padding: 5px;
+}
+/*third part locations*/
+#locations .flex-container {
+  width: 1100px;
+  margin: auto;
+}
+.flex-container.locations {
+  padding-top: 5px;
+}
+#locations {
+  background-image: url("../resources/images/locations-background.jpg");
+  padding-top: 70px;
+  height: 500px;
+}
+.store {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 280px;
+  padding: 10px;
+  margin: 5px 20px;
+  opacity: 1.0;
+  background-color: black;
+}
+/*contact info of the store*/
+.contact {
+  height: 200px;
+}
+/*footer*/
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
